@@ -1009,6 +1009,9 @@ button {
   .contact-details {
     grid-template-columns: repeat(3, 1fr);
   }
+    .hero__image {
+    display: none;
+  }
 }
 
 @media (max-width: 720px) {
@@ -1203,6 +1206,9 @@ button {
   .footer__bottom {
     gap: 20px;
   }
+    .hero__image {
+    display: none;
+  }
 }
 
 @media (max-width: 420px) {
@@ -1212,6 +1218,10 @@ button {
 
   .hero__proof {
     gap: 14px;
+  }
+
+  .hero__image {
+    display: none;
   }
 
   .hero__proof span {
