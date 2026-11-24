@@ -2,12 +2,12 @@
   --ink: #111318;
   --ink-soft: #1c2027;
   --graphite: #272b32;
-  --lime: #b9cf43;
-  --lime-hover: #aabd39;
-  --paper: #f4f5f1;
+  --lime: #006082;
+  --lime-hover: #004c65;
+  --paper: #f2f6f7;
   --white: #ffffff;
   --muted: #70747a;
-  --line: #dde0da;
+  --line: #dde5e7;
   --heading: "Rajdhani", sans-serif;
   --body: "Manrope", sans-serif;
   --shadow: 0 18px 50px rgba(17, 19, 24, 0.12);
@@ -61,7 +61,7 @@ button {
   top: -100px;
   z-index: 1000;
   background: var(--lime);
-  color: var(--ink);
+  color: var(--white);
   padding: 12px 16px;
   font-weight: 800;
 }
@@ -196,9 +196,9 @@ button {
   height: 420px;
   right: 18%;
   top: 5%;
-  border: 1px solid rgba(185, 207, 67, .12);
+  border: 1px solid rgba(0, 96, 130, .12);
   border-radius: 50%;
-  box-shadow: 0 0 0 90px rgba(185, 207, 67, .025), 0 0 0 180px rgba(185, 207, 67, .018);
+  box-shadow: 0 0 0 90px rgba(0, 96, 130, .025), 0 0 0 180px rgba(0, 96, 130, .018);
 }
 
 .hero__grid {
@@ -285,7 +285,7 @@ button {
 
 .button--primary {
   background: var(--lime);
-  color: var(--ink);
+  color: var(--white);
 }
 
 .button--primary:hover {
@@ -484,7 +484,7 @@ button {
   content: "✓";
   position: absolute;
   left: 0;
-  color: #7d900d;
+  color: #006082;
 }
 
 .text-link {
@@ -540,7 +540,7 @@ button {
   position: relative;
   z-index: 2;
   transform: translateY(-5px);
-  background: #fbfcf7;
+  background: #f7fafb;
   box-shadow: var(--shadow);
 }
 
@@ -549,8 +549,8 @@ button {
   place-items: center;
   width: 52px;
   height: 52px;
-  background: #eef2c9;
-  color: #66720e;
+  background: #d8edf3;
+  color: #004c65;
   margin-bottom: 28px;
 }
 
@@ -590,7 +590,7 @@ button {
 }
 
 .service-card__link span {
-  color: #7d900d;
+  color: #006082;
 }
 
 .gallery {
@@ -652,7 +652,7 @@ button {
 .value-card__number {
   display: block;
   margin-bottom: 44px;
-  color: #8c9d26;
+  color: #006082;
   font-family: var(--heading);
   font-size: 18px;
   font-weight: 700;
@@ -674,7 +674,7 @@ button {
 
 .cta {
   background: var(--lime);
-  color: var(--ink);
+  color: var(--white);
 }
 
 .cta__inner {
@@ -685,7 +685,7 @@ button {
 }
 
 .cta .section-kicker {
-  color: #566300;
+  color: #d8edf3;
 }
 
 .cta h2 {
@@ -744,8 +744,8 @@ button {
 .form-field input:focus,
 .form-field select:focus,
 .form-field textarea:focus {
-  border-color: #97a92e;
-  box-shadow: 0 0 0 3px rgba(185, 207, 67, .18);
+  border-color: #0080a3;
+  box-shadow: 0 0 0 3px rgba(0, 96, 130, .18);
 }
 
 .form-field textarea {
